@@ -1,0 +1,11 @@
+form {
+  button {
+    transition: all 200ms linear;
+    &.border-sky-600:hover {
+      background-color: rgba(91, 142, 185, 0.5);
+    }
+    &.border-amber-400:hover {
+      background-color: rgba(251, 191, 36, 0.5);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+main {
+  aside {
+    h1, h3 {
+      margin: -0.15rem;
+    }
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0rem 0rem 2rem 2rem rgba(0, 0, 0, 0.7);
+    .explanation {
+      max-height: 10rem;
+      text-align: justify;
+      overflow: scroll;
+    }
+  }
+}
+
+img {
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  animation: show 200ms linear 1;
+}
